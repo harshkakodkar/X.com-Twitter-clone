@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-search{
+ background-color: #1f2226;
+}
+
+.text-font{
+    color: #e8eaeb;
+}
+
+.border-col{
+    border-color: #2f3336;
+    border-bottom-style: none;
+    border-top: transparent;
+}
+
+.border-color{
+    border-top: transparent;
+    border-color: #2f3336;
+    border-left: none;
+    border-right: none;
+}
+
+   .search-bor{
+    border-color: #2f3336;
+   }
+
+
+   .l-border{
+    margin-left: 126px;
+    width: 57px;
+
+   }
+
+   .r-border{
+    margin-left: 244px;
+    width: 65px;
+   
+   }
+
+   .text-col{
+    color: #79838d;
+   }
+
+
+/* Custom Scrollbar Styling */
+.second::-webkit-scrollbar, .third::-webkit-scrollbar {
+    width: 8px;
+}
+
+.second::-webkit-scrollbar-track, .third::-webkit-scrollbar-track {
+    background: transparent; /* Make the track transparent */
+}
+
+.second::-webkit-scrollbar-thumb, .third::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2); /* Color of the scroll thumb */
+    border-radius: 10px; /* Roundness of the scroll thumb */
+    border: 3px solid transparent; /* Creates space around thumb */
+}
+
+.second::-webkit-scrollbar-thumb:hover, .third::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Change thumb color on hover */
+}
+
+
+.upload img {
+    width: 80%; /* Ensure the image fills the container width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Crop and cover the container */
+    border-radius: 1rem; /* Rounded corners */
+    display: block; /* Remove default inline spacing */
+    margin-left: 15px ;
+}
